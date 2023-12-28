@@ -62,9 +62,9 @@ This GitHub page offers a step-by-step tutorial for using Rotary Pico W.
   |---|---|---|
   |GP0 | 1  | General IO / SPI0 RX / I2C0 SDA / UART0 TX |
   |GP1 | 2 | General IO / SPI0 CSn / I2C0 SCL / UART0 RX |
-  |GP20 | 26 | General IO / SPI0 SCK / I2C1 SDA |
-  |GP21 | 27 | General IO / SPI0 TX / I2C1 SCL |
-  |GP22 | 29 | General IO / SPI0 SCK / I2C1 SDA |
-  |GP26 | 31 | General IO / SPI0 TX / I2C1 SCL |
-  |GP27| 32 | General IO / ADC2 / SPI1 RX |
+  |GP20 | 26 | General IO / SDA0 / PMM2A|
+  |GP21 | 27 | General IO / SCL0 / PWM2B |
+  |GP22 | 29 | General IO / PWM3A |
+  |GP26 | 31 | General IO / ADC0 / SDA1 |
+  |GP27| 32 | General IO / ADC1 / SCL1 |
 
