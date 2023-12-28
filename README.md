@@ -88,5 +88,5 @@ This GitHub page offers a step-by-step tutorial for using Rotary Pico W.
      
       <img src= "https://github.com/sbcshop/EnkPi_2.9_Software/blob/main/images/img3.jpg" />
      
-     Now that we've reached this point, you're executing your script through Thonny IDE, so if you unplug Pico, it will stop running. To run your script without using an IDE, simply power up Rotary Pico W and it should run your script, go to step 3. Once you have transferred your code to the ArdiPi board, to see your script running, just plug in power either way using micro USB or via Vin, both will work.
+     Now that we've reached this point, you're executing your script through Thonny IDE, so if you unplug Pico, it will stop running. To run your script without using an IDE, simply power up Rotary Pico W and it should run your script, go to step 3. Once you have transferred your code to the Rotary Pico W board, to see your script running, just plug in power either way using micro USB or via Vin, both will work.
 
