@@ -109,4 +109,4 @@ This GitHub page offers a step-by-step tutorial for using Rotary Pico W.
    In [example](https://github.com/sbcshop/Rotary_Pico-W_Powered_Software/tree/main/examples) folder you will find demo example script code to test onboard components of ReadPi like 
    - [Library](https://github.com/sbcshop/Rotary_Pico-W_Powered_Software/tree/main/examples/library): before running the code kindly save this library inside Pico W.
    - [Display test, RGB test, SD Card test, and touch test, etc.](https://github.com/sbcshop/Rotary_Pico-W_Powered_Software/tree/main/examples/Demo%20Codes)
-   - [Image display test](\https://github.com/sbcshop/Rotary_Pico-W_Powered_Software/tree/main/examples/image%20display): testing image display.
+   - [Image display test](https://github.com/sbcshop/Rotary_Pico-W_Powered_Software/tree/main/examples/image%20display): testing image display.
