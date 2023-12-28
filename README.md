@@ -106,7 +106,7 @@ This GitHub page offers a step-by-step tutorial for using Rotary Pico W.
 
 ### Example Codes
    Save whatever example code file you want to try as **main.py** in **Pico W** as shown above [step 3](https://github.com/sbcshop/Rotary_Pico-W_Powered_Software/tree/main?tab=readme-ov-file#3-how-to-move-your-script-on-pico-w-of-rotart-pico-w), also add related lib files with the default name.
-   In [example](https://github.com/sbcshop/ReadPi_NFC_Software/blob/main/examples) folder you will find demo example script code to test onboard components of ReadPi like 
+   In [example](https://github.com/sbcshop/Rotary_Pico-W_Powered_Software/tree/main/examples) folder you will find demo example script code to test onboard components of ReadPi like 
    - [Library](https://github.com/sbcshop/Rotary_Pico-W_Powered_Software/tree/main/examples/library): before running the code kindly save this library inside Pico W.
    - [Buzzer test](https://github.com/sbcshop/ReadPi_NFC_Software/blob/main/examples/BuzzerDemo.py) : code to test onboard Buzzer
    - [SD card demo](https://github.com/sbcshop/ReadPi_NFC_Software/blob/main/examples/Demo_sdcard.py): code to test onboard micro SD card interfacing, [sdcard. py](https://github.com/sbcshop/ReadPi_NFC_Software/blob/main/examples/sdcard.py) lib file is required for the code to run successfully.
