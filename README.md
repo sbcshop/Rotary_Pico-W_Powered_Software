@@ -14,4 +14,4 @@ This GitHub page offers a step-by-step tutorial for using Rotary Pico W.
 - Round display has capacitive touch
 - GPIO having Crocodile clip connector for interfacing additional peripherals 
 - It has an onboard SD Card
-- On board 32 RGB(WS2812B) Led's
+- On board 32 RGB (WS2812B) Led's
