@@ -84,7 +84,7 @@ This GitHub page offers a step-by-step tutorial for using Rotary Pico W.
       <img src= "https://github.com/sbcshop/EnkPi_2.9_Software/blob/main/images/img1.jpg" />
       <img src= "https://github.com/sbcshop/EnkPi_2.9_Software/blob/main/images/img2.jpg" />
       
-   - Write simple onboard blink Python code or [Download Led blink code](https://github.com/sbcshop/ReadPi_NFC_Software/blob/main/examples/onboard_ledBlink.py), then click on the green run button to make your script run on Rotary Pico W.
+   - Write simple onboard blink Python code or [Download Led blink code](https://github.com/sbcshop/Rotary_Pico-W_Powered_Software/blob/main/examples/onboard_ledBlink.py), then click on the green run button to make your script run on Rotary Pico W.
      
       <img src= "https://github.com/sbcshop/EnkPi_2.9_Software/blob/main/images/img3.jpg" />
      
