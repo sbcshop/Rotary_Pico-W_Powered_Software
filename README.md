@@ -46,16 +46,10 @@ This GitHub page offers a step-by-step tutorial for using Rotary Pico W.
   |GP16 | DOUT | MISO (Master IN Slave OUT) data pin of SPI interface|
   |GP17 | CS   | Chip Select pin of SPI interface for SDcard|
 
-- Joystick, Buzzer and LED Interfacing with Pico W
+- RGB LED Interfacing with Pico W
   | Pico W | Buttons | Function |
   |---|---|---|
-  |GP14 | JY_R |Programmable Joystick button|
-  |GP21 | JY_L |Programmable Joystick button|
-  |GP22 | JY_U |Programmable Joystick button|
-  |GP26 | JY_D |Programmable Joystick button|
-  |GP27 | JY_Sel |Programmable Joystick button|
-  |GP15 | Buzzer | Buzzer positive |
-  |GP25 | LED | OnBoard LED pin of Pico W  |
+  |GP15 | RGB LED | OnBoard LED pin of Pico W  |
  
 - Breakout GPIOs
   | Pico W |Physical Pin | Multi-Function |
