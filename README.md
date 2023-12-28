@@ -69,7 +69,7 @@ This GitHub page offers a step-by-step tutorial for using Rotary Pico W.
 
 
 ### 1. Step to install boot Firmware
-   - Every ReadPi board will be provided with boot firmware already installed, so you can skip this step and directly go to step 2.
+   - Every Rotary Pico W board will be provided with boot firmware already installed, so you can skip this step and directly go to step 2.
    - If in case you want to install firmware for your board, Push and hold the BOOTSEL button and plug your Pico W into the USB port of your computer. Release the BOOTSEL button after your Pico is connected.
    <img src="https://github.com/sbcshop/ArdiPi_Software/blob/main/images/pico_bootmode.gif">
    
@@ -79,14 +79,14 @@ This GitHub page offers a step-by-step tutorial for using Rotary Pico W.
 ### 2. Onboard LED Blink 
    - Download **Thonny IDE** from [Download link](https://thonny.org/) as per your OS and install it.
    - Once done start **Thonny IDE application**, Connect ReadPi to laptop/PC.
-   - Select device at the bottom right with a suitable COM port, as shown in the below figure. You might get a different COM port.
+   - Select the device at the bottom right with a suitable COM port, as shown in the below figure. You might get a different COM port.
      
       <img src= "https://github.com/sbcshop/EnkPi_2.9_Software/blob/main/images/img1.jpg" />
       <img src= "https://github.com/sbcshop/EnkPi_2.9_Software/blob/main/images/img2.jpg" />
       
-   - Write simple onboard blink Python code or [Download Led blink code](https://github.com/sbcshop/ReadPi_NFC_Software/blob/main/examples/onboard_ledBlink.py), then click on the green run button to make your script run on ReadPi.
+   - Write simple onboard blink Python code or [Download Led blink code](https://github.com/sbcshop/ReadPi_NFC_Software/blob/main/examples/onboard_ledBlink.py), then click on the green run button to make your script run on Rotary Pico W.
      
       <img src= "https://github.com/sbcshop/EnkPi_2.9_Software/blob/main/images/img3.jpg" />
      
-     Now that we've reached this point, you're executing your script through Thonny IDE, so if you unplug Pico, it will stop running. To run your script without using an IDE, simply power up ArdiPi and it should run your script, go to step 3. Once you have transferred your code to the ArdiPi board, to see your script running, just plug in power either way using micro USB or via Vin, both will work.
+     Now that we've reached this point, you're executing your script through Thonny IDE, so if you unplug Pico, it will stop running. To run your script without using an IDE, simply power up Rotary Pico W and it should run your script, go to step 3. Once you have transferred your code to the ArdiPi board, to see your script running, just plug in power either way using micro USB or via Vin, both will work.
 
