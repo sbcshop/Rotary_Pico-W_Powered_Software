@@ -25,6 +25,8 @@ This GitHub page offers a step-by-step tutorial for using Rotary Pico W.
   |---|---|---|
   |GP6 | SDA | Touch I2C connection |
   |GP7 | SCL  | Touch I2C connection |
+  |GP4 | RESET  | Touch Reset  |
+  |GP7 | INT  | Touch Intrrupt  |
 
   
 - Pico W and Round Display interfacing
