@@ -91,11 +91,11 @@ This GitHub page offers a step-by-step tutorial for using Rotary Pico W.
      Now that we've reached this point, you're executing your script through Thonny IDE, so if you unplug Pico, it will stop running. To run your script without using an IDE, simply power up Rotary Pico W and it should run your script, go to step 3. Once you have transferred your code to the Rotary Pico W board, to see your script running, just plug in power either way using micro USB or via Vin, both will work.
 
 ### 3. How to move your script on Pico W of Rotart pico W
-   - Click on File -> Save Copy -> select Raspberry Pi Pico W , Then save file as main.py
+   - Click on File -> Save Copy -> select Raspberry Pi Pico W, Then save file as main.py
      
       <img src="https://github.com/sbcshop/3.2_Touchsy_Pico_W_Resistive_Software/blob/main/images/transfer_script_pico.gif" />
    
-      Similarly, you can add various Python code files to Pico. Also, you can try out sample codes given here in [examples folder](https://github.com/sbcshop/ReadPi_NFC_Software/tree/main/examples). 
+      Similarly, you can add various Python code files to Pico. Also, you can try out sample codes given here in [examples folder](https://github.com/sbcshop/Rotary_Pico-W_Powered_Software/tree/main/examples). 
    
    - But in case you want to move multiple files at one go, for example, suppose you are interested in saving the library files folder into Pico W, the below image demonstrates that
      
