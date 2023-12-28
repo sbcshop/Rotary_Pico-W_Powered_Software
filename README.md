@@ -60,11 +60,11 @@ This GitHub page offers a step-by-step tutorial for using Rotary Pico W.
 - Breakout GPIOs
   | Pico W |Physical Pin | Multi-Function |
   |---|---|---|
-  |GP0 | 1  | General IO / SPI0 RX / I2C0 SDA / UART0 TX |
-  |GP1 | 2 | General IO / SPI0 CSn / I2C0 SCL / UART0 RX |
-  |GP20 | 26 | General IO / SDA0 / PMM2A|
-  |GP21 | 27 | General IO / SCL0 / PWM2B |
+  |GP0 | 1  | General IO / SPI0 RX / I2C0 SDA / UART0 TX /PWM0A |
+  |GP1 | 2 | General IO / SPI0 CSn / I2C0 SCL / UART0 RX /PWM0B |
+  |GP20 | 26 | General IO / I2C0 SDA0 / PMM2A|
+  |GP21 | 27 | General IO / I2C0 SCL0 / PWM2B |
   |GP22 | 29 | General IO / PWM3A |
-  |GP26 | 31 | General IO / ADC0 / SDA1 |
-  |GP27| 32 | General IO / ADC1 / SCL1 |
+  |GP26 | 31 | General IO / ADC0 / I2C1 SDA1 / PWM5A |
+  |GP27| 32 | General IO / ADC1 / I2C1 SCL1 / PWM5B |
 
