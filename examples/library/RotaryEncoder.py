@@ -73,7 +73,7 @@ def _trigger(rotary_instance):
         listener()
 
 
-class Rotary(object):
+class Rotary_set:
 
     RANGE_UNBOUNDED = const(1)
     RANGE_WRAP = const(2)
@@ -173,7 +173,7 @@ class Rotary(object):
         except:
             pass
         
-class RotaryIRQ(Rotary):
+class Rotary(Rotary_set):
     def __init__(
         self,
         pin_num_clk=2,
@@ -181,7 +181,7 @@ class RotaryIRQ(Rotary):
         min_val=0,
         max_val=10,
         reverse=False,
-        range_mode=Rotary.RANGE_UNBOUNDED,
+        range_mode=Rotary_set.RANGE_UNBOUNDED,
         pull_up=False,
         half_step=False,
         invert=False,
@@ -227,8 +227,8 @@ class RotaryIRQ(Rotary):
         self._hal_disable_irq()
 
 
-#Touch driver
-class Touch_CST816T(object):
+#Touch driver (CST816T)
+class Touch:
     #Initialize the touch chip  
     def __init__(self,address=0x15,mode=0,i2c_num=1,i2c_sda=6,i2c_scl=7,int_pin=5,rst_pin=4):
         self._bus = I2C(id=i2c_num,scl=Pin(i2c_scl),sda=Pin(i2c_sda),freq=400_000) # Initialize I2C
@@ -351,4 +351,3 @@ class Touch_CST816T(object):
         self.l += 1
         if self.l > 100:
             self.l = 50
-
