@@ -23,8 +23,8 @@ This GitHub page offers a step-by-step tutorial for using Rotary Pico W.
   
   | Pico W | NFC Module Pin | Function |
   |---|---|---|
-  |GP6 | SDA | Touch I2C connection |
-  |GP7 | SCL  | Touch I2C connection |
+  |GP6 | SDA | Touch I2C  |
+  |GP7 | SCL  | Touch I2C  |
   |GP4 | RESET  | Touch Reset  |
   |GP7 | INT  | Touch Intrrupt  |
 
