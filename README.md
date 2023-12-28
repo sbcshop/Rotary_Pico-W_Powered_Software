@@ -19,23 +19,25 @@ This GitHub page offers a step-by-step tutorial for using Rotary Pico W.
 
 
 ### Interfacing Details
-- Pico W and RFID module interfacing
+- Pico W and Touch interfacing
   
   | Pico W | NFC Module Pin | Function |
   |---|---|---|
-  |GP4 | RX | Serial UART connection |
-  |GP5 | TX  | Serial UART connection |
+  |GP6 | SDA | Touch I2C connection |
+  |GP7 | SCL  | Touch I2C connection |
 
   
-- Pico W and Display interfacing
+- Pico W and Round Display interfacing
   
   | Pico W | Display Pin | Function |
   |---|---|---|
-  |GP10 | SCLK | Clock pin of SPI interface for display|
-  |GP11 | DIN  | MOSI (Master OUT Slave IN) data pin of SPI interface|
-  |GP8 | DC | Data/Command pin of SPI interface|
-  |GP9 | CS   | Chip Select pin of SPI interface for display|
-  |GP12 | Reset | Display Reset Pin |
+  |GP10 | SCLK  | Clock pin of SPI interface for display|
+  |GP11 | DIN   | MOSI (Master OUT Slave IN) data pin of SPI interface|
+  |GP12 | DOUT   | MISO (Master OUT Slave OUT) data pin of SPI interface|
+  |GP8  | DC    | Data/Command pin of SPI interface|
+  |GP13 | CS    | Chip Select pin of SPI interface for display|
+  |GP9  | Reset | Display Reset Pin |
+  |GP14 | BL    | Display backlight Pin |
   
 - Pico W and micro SD card interfacing
 
