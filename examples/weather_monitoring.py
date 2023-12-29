@@ -9,7 +9,7 @@ import romancs
 
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
-wlan.connect("Tech SB_2G","jc643111h@")
+wlan.connect("Tech SB_2G","jc643111h@")# SSID and Password of wifi here
 openweather_api_key = "dff350f24230806454d5f48aebbf97bb"
 
 
