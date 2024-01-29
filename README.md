@@ -21,7 +21,7 @@ This GitHub page offers a step-by-step tutorial for using Rotary Pico W.
 ### Interfacing Details
 - Pico W and Touch interfacing
   
-  | Pico W | NFC Module Pin | Function |
+  | Pico W | Touch Controller| Function |
   |---|---|---|
   |GP6 | SDA | Touch I2C  |
   |GP7 | SCL  | Touch I2C  |
@@ -74,7 +74,7 @@ This GitHub page offers a step-by-step tutorial for using Rotary Pico W.
    <img src="https://github.com/sbcshop/ArdiPi_Software/blob/main/images/pico_bootmode.gif">
    
    - It will mount as a Mass Storage Device called RPI-RP2.
-   - Drag and drop the MicroPython UF2 - [Rotary Pico W_firmware](https://github.com/sbcshop/Rotary_Pico-W_Powered_Software/blob/main/firmware.uf2) file provided in this github onto the RPI-RP2 volume. Your Pico will reboot. You are now running MicroPython on ArdiPi.
+   - Drag and drop the MicroPython UF2 - [Rotary Pico W_firmware](https://github.com/sbcshop/Rotary_Pico-W_Powered_Software/blob/main/firmware.uf2) file provided in this github onto the RPI-RP2 volume. Your Pico will reboot. You are now running MicroPython.
 
 ### 2. Onboard LED Blink 
    - Download **Thonny IDE** from [Download link](https://thonny.org/) as per your OS and install it.
@@ -106,7 +106,7 @@ This GitHub page offers a step-by-step tutorial for using Rotary Pico W.
 
 ### Example Codes
    Save whatever example code file you want to try as **main.py** in **Pico W** as shown above [step 3](https://github.com/sbcshop/Rotary_Pico-W_Powered_Software/tree/main?tab=readme-ov-file#3-how-to-move-your-script-on-pico-w-of-rotart-pico-w), also add related lib files with the default name.
-   In [example](https://github.com/sbcshop/Rotary_Pico-W_Powered_Software/tree/main/examples) folder you will find demo example script code to test onboard components of ReadPi like 
+   In [example](https://github.com/sbcshop/Rotary_Pico-W_Powered_Software/tree/main/examples) folder you will find demo example script code to test onboard components of Rotary Pico W like 
    - [Library](https://github.com/sbcshop/Rotary_Pico-W_Powered_Software/tree/main/examples/library): before running the code kindly save this library inside Pico W.
    - [Display test, RGB test, SD Card test, and touch test, etc.](https://github.com/sbcshop/Rotary_Pico-W_Powered_Software/tree/main/examples/Demo%20Codes): All demo file
    - [Image display test](https://github.com/sbcshop/Rotary_Pico-W_Powered_Software/tree/main/examples/image%20display): testing image display.
