@@ -1,10 +1,8 @@
 # Rotary_Pico-W_Powered_Software
 
-<img src = "https://github.com/sbcshop/Rotary_Pico-W_Powered_Software/blob/main/images/pico.png">
+<img src = "https://github.com/sbcshop/Rotary_Pico-W_Powered_Software/blob/main/images/pico.png" width="648" height="432">
 
-#### "Dive into innovation with our Rotary Encoder – boasting 32 vibrant RGB LED arrays, an intuitive turning knob, and a dazzling 1.28" Round Touch LCD. Unleash your creativity with a seamless user interface, powered by the brilliance of LVGL, the go-to free and open-source embedded graphics library. Craft personalized and stunning UIs effortlessly for any MCU, MPU, and display type, giving you boundless design freedom. Your Rotary, your style – customize the interface to match your unique vision and make a statement in the world of limitless possibilities."
-
-This GitHub page offers a step-by-step tutorial for using Rotary Pico W. 
+This GitHub page offers a interfacing details and getting started guide for Rotary Encoder powered by Pico W.
 
 ### Features : 
 - Device powered by powerful Pico W which has a Dual-core Arm Cortex M0+ processor, a flexible clock running up to 133 MHz
@@ -90,7 +88,7 @@ This GitHub page offers a step-by-step tutorial for using Rotary Pico W.
      
      Now that we've reached this point, you're executing your script through Thonny IDE, so if you unplug Pico, it will stop running. To run your script without using an IDE, simply power up Rotary Pico W and it should run your script, go to step 3. Once you have transferred your code to the Rotary Pico W board, to see your script running, just plug in power either way using micro USB or via Vin, both will work.
 
-### 3. How to move your script on Pico W of Rotart pico W
+### 3. How to move your script on Pico W of Rotary Encoder
    - Click on File -> Save Copy -> select Raspberry Pi Pico W, Then save file as main.py
      
       <img src="https://github.com/sbcshop/3.2_Touchsy_Pico_W_Resistive_Software/blob/main/images/transfer_script_pico.gif" />
@@ -110,3 +108,38 @@ This GitHub page offers a step-by-step tutorial for using Rotary Pico W.
    - [Library](https://github.com/sbcshop/Rotary_Pico-W_Powered_Software/tree/main/examples/library): before running the code kindly save this library inside Pico W.
    - [Display test, RGB test, SD Card test, and touch test, etc.](https://github.com/sbcshop/Rotary_Pico-W_Powered_Software/tree/main/examples/Demo%20Codes): All demo file
    - [Image display test](https://github.com/sbcshop/Rotary_Pico-W_Powered_Software/tree/main/examples/image%20display): testing image display.
+
+## Resources
+  * [Schematic](https://github.com/sbcshop/Rotary_Pico-W_Powered_Hardware/blob/main/Design%20Data/Rotary%20Encoder.pdf)
+  * [Hardware Files](https://github.com/sbcshop/Rotary_Pico-W_Powered_Hardware)
+  * [Step File](https://github.com/sbcshop/Rotary_Pico-W_Powered_Hardware/blob/main/Mechanical%20Data/Rotary%20Encoder%20with%20Pico.step)
+  * [MicroPython getting started for RPi Pico/Pico W](https://docs.micropython.org/en/latest/rp2/quickref.html)
+  * [Pico W Getting Started](https://projects.raspberrypi.org/en/projects/get-started-pico-w)
+  * [RP2040 Datasheet](https://github.com/sbcshop/HackyPi-Hardware/blob/main/Documents/rp2040-datasheet.pdf)
+
+## Related Products
+  * [1.28 round touch lcd hat](https://shop.sb-components.co.uk/products/1-28-round-touch-lcd-hat-for-raspberry-pi?_pos=8&_sid=b964c85bf&_ss=r) 
+   
+     ![1.28 round touch lcd hat](https://shop.sb-components.co.uk/cdn/shop/files/shopimages_87b6d1ec-2c95-4621-a07f-5937a8d8c090.png?v=1687857703&width=300)   
+
+  * [Roundy](https://shop.sb-components.co.uk/products/roundy?_pos=1&_sid=b964c85bf&_ss=r) 
+   
+     ![Roundy](https://shop.sb-components.co.uk/cdn/shop/products/roundypi.png?v=1650457581&width=300) 
+
+  * [Round LCD HAT](https://shop.sb-components.co.uk/products/round-lcd-hat-for-raspberry-pi?_pos=2&_sid=b964c85bf&_ss=r) 
+   
+     ![Round LCD HAT](https://shop.sb-components.co.uk/cdn/shop/products/LCDHATforPi.jpg?v=1619171154&width=300)
+
+  * [1.28” Round LCD Breakout](https://shop.sb-components.co.uk/products/1-28-round-lcd-breakout?_pos=5&_sid=b964c85bf&_ss=r) 
+   
+     ![1.28” Round LCD Breakout](https://shop.sb-components.co.uk/cdn/shop/products/01_a58fb20c-7cc7-4908-bfca-549b28c721b6.png?v=1677234693&width=300)
+
+ 
+## Product License
+
+This is ***open source*** product. Kindly check the LICENSE.md file for more information.
+
+Please contact support@sb-components.co.uk for technical support.
+<p align="center">
+  <img width="360" height="100" src="https://cdn.shopify.com/s/files/1/1217/2104/files/Logo_sb_component_3.png?v=1666086771&width=300">
+</p>
