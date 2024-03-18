@@ -2,8 +2,8 @@ import network
 import socket
 import time
 
-ssid     = 'Tech SB_2G'
-password = 'jc643111h@'
+ssid     = 'Your WiFi SSID'
+password = 'Your WiFi Password'
 
 def connect():
     #Connect to WLAN
